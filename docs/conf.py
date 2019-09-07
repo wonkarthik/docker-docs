@@ -3,6 +3,7 @@
 import sys
 import os
 import re
+import sphinx_rtd_theme
 
 if not 'READTHEDOCS' in os.environ:
     sys.path.insert(0, os.path.abspath('..'))
